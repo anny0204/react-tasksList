@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+.main {
+    width: 100%;
+    max-width: 960px;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.tasksApp {
+    font-size: 16px;
+}
+
+.new_task {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid  blueviolet;
+    border-radius: 5px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.new_task h3 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.new_task button {
+    padding: 5px 15px;
+    margin: 5px;
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.new_task button:hover {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.new_task div {
+    margin: 5px auto;
+}
+
+.edit_btn {
+    padding: 5px 15px;
+    margin: 3px;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s; 
+}
+
+.edit_btn:hover {
+    background-color: blueviolet;
+    color: #fff;
+}
